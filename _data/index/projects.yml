@@ -1,0 +1,35 @@
+- name: Soil Nutrient Estimation Robot
+  descr: A project aimed at easing the task of farmers for testing of soil while simultaneously preventing the wastage of fetrilizers and also preventing overfertilization. This project was presented to Tata Centre for Technological Development for a problem statement which demanded solution for drugery of indian farming. In among the 23 IITs competing this project secured a bronze medal. This model collects soil sample and using its solution and the techniques of <a href="https://en.wikipedia.org/wiki/Colorimetry">Colorimetry</a> via a simple LDR and RGB-LED it measures Nitrogen-Phosphorus-Potassium content in soil for small patches acorss the farm land and suggests farmers the optimal amount of fertilizer and even the proportion of fertilizers to mix for each part of the farm.
+  github: https://github.com/cybr17crwlr/Soil-Testing-Bot
+  auth: 7th Inter IIT TechMeet 
+  period: Nov 2018 - Dec 2018
+  
+- name: Eye In The Sky
+  descr: This project was about <a href="https://www.usgs.gov/faqs/what-remote-sensing-and-what-it-used">Remote sensing</a> which is the science of obtaining information about objects or areas from a distance, typically from aircraft or satellites.We realized the problem of satellite image classification as a <a href="https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf">semantic segmentation</a> problem and built semantic segmentation algorithms in deep learning to tackle this. We implemented 4 different algorithms UNet - GT with RGB channels, PSPNet - GT with RGB channels, UNet with One Hot Encoded GT, PSPNet with One Hot Encoded GT. We were able to achieved maximum accuracy with a Modified U-net with Batch Normalization and One Hot encoded Ground Truth. We were provided with training data for the problem statement consisting of 13 images containing 4 channel on which we had to train to classify 8 classes namely Roads, Buildings, Trees, Grass, Bare Soil, Water, Railways and Swimming pools and a ninth class as unclassified.
+  github: https://github.com/manideep2510/eye-in-the-sky
+  auth: 7th Inter IIT TechMeet 
+  period: Nov 2018 - Dec 2018
+
+- name: Automated Robot for Library Enhancement(ARLE)
+  descr: This was a project undertaken by a team of 9 members(friends) to add to the already in-action automation of Library of IIT Guwahati. We are currently working on creating a self driving bot to autonomously traverse the library with the teams presently working on interfacing the sensors with ROS and extracting data from it. We are currently working on a SAFWR ( Simple Autonomous Four Wheeled Robot) using an <a href="https://click.intel.com/intelr-realsensetm-depth-camera-d435.html">Intel Realsense D435</a>. Our final aim to build a robot which can pick and place misplaced books in the library into there correct shelves.
+  github: https://github.com/RCIITG/ARLE
+  website: https://4ilabs-iitg.github.io/projects/project1/
+  youtube: https://youtu.be/51S_pQePftE
+  auth: 4i Labs, IIT Guwahati
+  period: Jul 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  
+- name: Sub-Domains and Open-Port Scanner
+  descr: This project was part of my Internship at Appsecure during the Summers of 2018. In this project first of all I built a module to a combined software for active sub-domain and port scanning for web-servers. Later using Machine Learning techniques and the above mentioned scanner on websites, trained a model to predict the presence of a word in the web-server directory or sub-domain.
+  auth: AppSecure
+  period: May 2018 - Jul 2018
+  
+- name: Technologies for Soldier Support- Health Monitoring System
+  descr: Started this project with 3 of my batchmates to present in Inter-Hostel Competition, later went on to present this project at the 5th Inter-IIT TechMeet representing my campus of IIT Guwahati at a national level. This project was built using MEMS Sensors namely <a href="https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/">MPU9250</a>, <a href="https://www.maximintegrated.com/en/products/sensors/MAX30205.html">Temperature Sensor</a> and <a href="https://www.sparkfun.com/products/11574">Heart Rate</a> sensor to predict the physical state of ability and inability of a soldier during any battle. Build with a <a href="https://en.wikipedia.org/wiki/ESP8266">ESP8266</a> it transmitted data of the soliders condition to base station.
+  github: https://github.com/RCIITG/Technologies-for-Soldier-Support
+  auth: 6th Inter IIT TechMeet 
+  period: Dec 2017 - Jan 2018
+  
+- name: Automated Robotic Arm
+  descr: Built an arm which can any object in a 3D spherical area and place them at a certain location. It recognized objects using OpenCV to detect objects using thier colour and picked them up.
+  auth: Robotics Club, IIT Guwahati
+  period: Feb 2017 - Mar 2017  

@@ -1,0 +1,10 @@
+- name: Hardware
+  list: [Arduino,Raspberry-Pi,IMU Sensors,Camera,RGBD Camera,Motors And Encoders]
+  
+- name: Machine Learning
+  list: [Regression,Decision Trees,SVM,Neural Networks,CNNs,RNNs]
+
+- name: Miscellaneous
+  list: [Android App Development,Web-Requests Handling]
+
+
