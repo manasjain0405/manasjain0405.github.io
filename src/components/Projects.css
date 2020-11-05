@@ -1,0 +1,18 @@
+.project-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
+
+
+.project-card {
+    width: 18rem;
+    margin: 0.2rem;
+}
