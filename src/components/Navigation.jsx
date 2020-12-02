@@ -1,15 +1,14 @@
 import React from 'react';
-import logo from '../logo.svg';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import { Navbar, Nav, Image } from 'react-bootstrap';
 
 function Navigation() {
   return (
     <React.Fragment>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Navbar.Brand href="/">
-          <img
-            src={logo}
+          <Image
+            roundedCircle
+            src={process.env.PUBLIC_URL + "/logo192.png"}
             width="30"
             height="30"
             className="d-inline-block align-top"

@@ -1,18 +1,31 @@
-.project-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.projects-box {
+    padding-top: 1rem;
+}
+
+.project-container{
+    padding-bottom: 2rem;
 }
 
 .loading-box {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30rem;
+    height: 45rem;
+    padding-top: 1rem;
 }
 
 
 .project-card {
-    width: 18rem;
-    margin: 0.2rem;
+    /* width: 18rem;
+    margin: 0.2rem; */
+    color: white;
+}
+
+.projects-heading {
+    text-align: left;
+    padding: 0.2rem 0 0.2rem 0.5rem;
+    border-style: none none solid none;
+    border-color: #2c384e;
+    border-width: 2px;
+    height: 100%;
 }

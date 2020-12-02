@@ -1,0 +1,21 @@
+.contact-details {
+    text-align: left;
+    padding-top: 1rem;
+}
+.details{
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.contact-font {
+    color:  #007bff;
+    /*text-shadow: 1px 1px 1px #ccc;*/
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .details {
+        text-align: center;
+    }
+}
