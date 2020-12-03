@@ -1,3 +1,11 @@
+html, body, #root, .App, #Home>.row {
+    height: 100%;
+}
+
+#Home {
+    height: 92%; 
+}
+
 .loading-box {
     min-height: 20rem;
     padding-top: 1rem;
@@ -10,7 +18,6 @@
     border-style: none solid none none;
     border-color: #2c384e;
     border-width: 2px;
-    min-height: 92.5vh;
     display: flex;
 }
 
@@ -36,12 +43,15 @@
 @media screen and (max-width: 768px) {
     .profile-box {
         border: none;
-        height: default;
+        height: inherit;
         display: inline;
     }
     .data-box {
         overflow-y: visible;
         display: inline;
         text-align: center;
+    }
+    html, body, #root, .App, #Home>.row, #Home {
+        height: inherit;
     }
 }

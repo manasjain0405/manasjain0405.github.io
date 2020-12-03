@@ -7,7 +7,7 @@
 
 .resume-data {
     overflow-y: scroll;
-    height: 83vh;
+    max-height: 83vh;
 }
 
 .resume-element {
@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 768px) {
     .resume-data {
-        height: default;
+        height: inherit;
         overflow-y: visible;
     }
     .resume-button{

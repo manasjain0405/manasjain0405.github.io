@@ -8,7 +8,7 @@ function Profile(props) {
     const item = props.dataParentToChild;
     return (
         <div>
-            <Image roundedCircle fluid src={item.avatar_url} />
+            <Image className="profile-picture" roundedCircle fluid src={item.avatar_url} />
             <br />
             <div className="details">
             <h2> {item.name} </h2>
