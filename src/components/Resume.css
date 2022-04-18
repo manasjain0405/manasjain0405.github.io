@@ -1,0 +1,72 @@
+.resume-topbar {
+    padding-top: 0.5rem;
+    border-style: none none solid none;
+    border-color: #2c384e;
+    border-width: 2px;
+}
+
+.resume-data {
+    overflow-y: scroll;
+    max-height: 83vh;
+}
+
+.resume-element {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    border-style: none none solid none;
+    border-color: #2c384e;
+    border-width: 2px;
+}
+
+.resume-element-title {
+    text-align: left;
+}
+
+.resume-heading {
+    text-align: left;
+}
+
+.resume-button{
+    float: right;
+    margin: 0.2rem 0.5rem 0rem 0;
+    background-color: #2c384e;
+}
+
+.experience-card {
+    text-align: left;
+}
+
+.education-card {
+    text-align: left;
+}
+
+.loading-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45rem;
+    padding-top: 1rem;
+}
+
+.resume-data::-webkit-scrollbar {
+    width: 5px;
+    background: #212529;
+  }
+.resume-data::-webkit-scrollbar-thumb {
+    background: transparent;
+    height: 60px;
+  }
+.resume-data::-webkit-scrollbar-thumb :hover{
+    background: black;
+    height: 60px;
+  }
+
+@media screen and (max-width: 768px) {
+    .resume-data {
+        height: inherit;
+        overflow-y: visible;
+    }
+    .resume-button{
+        float: left;
+        margin: 0.2rem 0 0.5rem 0;
+    }
+}

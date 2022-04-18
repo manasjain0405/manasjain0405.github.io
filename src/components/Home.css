@@ -1,0 +1,57 @@
+html, body, #root, .App, #Home>.row {
+    height: 100%;
+}
+
+#Home {
+    height: 92%; 
+}
+
+.loading-box {
+    min-height: 20rem;
+    padding-top: 1rem;
+}
+
+.profile-box {
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    border-style: none solid none none;
+    border-color: #2c384e;
+    border-width: 2px;
+    display: flex;
+}
+
+.data-box {
+    overflow-y: scroll;
+    text-align: left;
+    align-content: left;
+}
+
+.data-box::-webkit-scrollbar {
+    width: 5px;
+    background: #212529;
+  }
+.data-box::-webkit-scrollbar-thumb {
+    background: transparent;
+    height: 60px;
+  }
+.data-box::-webkit-scrollbar-thumb :hover{
+    background: black;
+    height: 60px;
+  }
+
+@media screen and (max-width: 768px) {
+    .profile-box {
+        border: none;
+        height: inherit;
+        display: inline;
+    }
+    .data-box {
+        overflow-y: visible;
+        display: inline;
+        text-align: center;
+    }
+    html, body, #root, .App, #Home>.row, #Home {
+        height: inherit;
+    }
+}
